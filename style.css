@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.felxibal_part {
+  display: flex;
+}
+
+.widht-half {
+  width: 50%;
+}
+
+.main_part {
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.welcome_part {
+  margin: 7%;
+}
+
+.welcome_part h1 {
+  font-size: 4rem;
+}
+
+.welcome_part span {
+  color: orange;
+}
+.resume_content h3,
+.welcome_part h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.welcome_part p {
+  font-size: 1.1rem;
+  color: #434343;
+}
+
+.wlcimgpart img {
+  width: 80%;
+  margin-top: 2rem;
+}
+.button a {
+  padding: 12px 30px;
+  background: orange;
+  background-image: linear-gradient(to right, orange, tomato);
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Rsueme Part  */
+.resume_main_part {
+  margin-top: 100px;
+}
+.resume_content h2 {
+  font-size: 3rem;
+}
+.resume_img_part img {
+  width: 70%;
+  margin-left: 5%;
+}
+.resume_content p {
+  font-size: 1.1rem;
+  margin-right: 30%;
+}
+
+.resume_content .button a {
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.resume_content h2 {
+  margin-top: 100px;
+}
+
+/* Exprience Part */
+.full_stak_developer_w,
+.full_stak_developer {
+  width: 50%;
+  margin-left: 5%;
+  padding: 50px;
+  border-left: 20px solid;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 9.5);
+  border-image: linear-gradient(red, blue);
+  border-image-slice: 1;
+}
+
+.full_stak_developer_w {
+  margin-right: 5%;
+}
+.exprience_part h1 {
+  font-size: 3rem;
+  margin-top: 70px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+.full_stak_developer_w h2,
+.full_stak_developer h2 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.full_stak_developer_w h5,
+.full_stak_developer h5 {
+  font-size: 1.5rem;
+  color: orange;
+  margin-bottom: 20px;
+}
+.full_stak_developer_w p,
+.full_stak_developer p {
+  color: #434343;
+  margin-bottom: 30px;
+}
+
+/* Fotter */
+footer {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
